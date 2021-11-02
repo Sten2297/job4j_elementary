@@ -11,6 +11,6 @@ public class Calculator {
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
-        System.out.printf("sixDivTwo = %s\nfiveMinusTwo = %s\nfourTimeTwo = %s\n",sixDivTwo, fiveMinusTwo, fourTimeTwo);
+        System.out.printf("sixDivTwo = %s\nfiveMinusTwo = %s\nfourTimeTwo = %s\n", sixDivTwo, fiveMinusTwo, fourTimeTwo);
     }
 }
