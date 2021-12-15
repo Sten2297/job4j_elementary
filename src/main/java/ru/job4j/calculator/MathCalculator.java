@@ -7,15 +7,15 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static double func1(double first, double second) {
+    public static double subtructionAndDivision(double first, double second) {
         return subtraction(first, second) + division(first, second);
     }
 
-    public static double itog(double first, double second) {
-        return sumAndMultiply(first, second) + func1(first, second);
+    public static double sumAllFunctions(double first, double second) {
+        return sumAndMultiply(first, second) + subtructionAndDivision(first, second);
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат расчета равен: " + itog(10, 20));
+        System.out.println("Результат расчета равен: " + sumAllFunctions(10, 20));
     }
 }
